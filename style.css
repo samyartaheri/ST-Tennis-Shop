@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-position: center;
   background-repeat: no-repeat;
 
 }
@@ -31,7 +30,7 @@ body::before {
   background: url("Hard.jpg") center / cover no-repeat;
   filter: blur(6px);
   transform: scale(1.05); 
-  z-index: -1;
+  
 }
 
 @media (max-width: 768px) {
@@ -170,5 +169,6 @@ footer {
     background-attachment: scroll;
   }
 }
+
 
 
