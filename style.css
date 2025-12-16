@@ -26,7 +26,7 @@ body {
 body::before {
   content: "";
   inset: 0;
-  background: url("Hard.jpg") cover no-repeat;
+  background: url("Hard.jpg") center / cover no-repeat;
   filter: blur(6px);
   transform: scale(1.05); 
   z-index: -1;
@@ -168,6 +168,7 @@ footer {
     background-attachment: scroll;
   }
 }
+
 
 
 
