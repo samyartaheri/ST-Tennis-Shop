@@ -25,11 +25,14 @@ body {
 
 body::before {
   content: "";
+  position: fixed;
   inset: 0;
   background: url("Hard.jpg") center / cover no-repeat;
   filter: blur(6px);
   transform: scale(1.05); 
   position: fixed;
+  backgroun-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -169,6 +172,7 @@ footer {
     background-attachment: scroll;
   }
 }
+
 
 
 
