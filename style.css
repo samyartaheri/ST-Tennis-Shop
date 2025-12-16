@@ -6,7 +6,8 @@
   --page-bg: #ecf0f1;
 }
 .page {
-  min-height: 100vh;
+  min-height: 100svh;
+  text-align:right;
 }
 
 
@@ -169,6 +170,7 @@ footer {
     background-attachment: scroll;
   }
 }
+
 
 
 
