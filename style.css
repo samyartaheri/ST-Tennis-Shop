@@ -45,10 +45,6 @@ body::before {
 
 
 
-main {
-  flex: 1; 
-}
-
 footer {
   background: var(--main-bg);
   text-align: center;
@@ -173,6 +169,7 @@ footer {
     background-attachment: scroll;
   }
 }
+
 
 
 
