@@ -1,7 +1,7 @@
 :root {
-  --main-bg: #3498db;   /* آبی برای بخش‌های اصلی */
-  --nav-bg: #2c3e50;   /* خاکستری تیره برای منو */
-  --accent: #e74c3c;   /* قرمز برای دکمه‌ها */
+  --main-bg: #3498db;   
+  --nav-bg: #2c3e50;   
+  --accent: #e74c3c;   
   --text-color: #333333;
   --page-bg: #ecf0f1;
 }
@@ -30,13 +30,13 @@ body::before {
   inset: 0;
   background: url("hard.jpg") center / cover no-repeat;
   filter: blur(6px);
-  transform: scale(1.05); /* جلوگیری از لبه سفید بعد از blur */
+  transform: scale(1.05); 
   z-index: -1;
 }
 
 @media (max-width: 768px) {
   body::before {
-    filter: blur(3px); /* موبایل سبک‌تر */
+    filter: blur(6px); 
   }
 }
 
@@ -170,3 +170,4 @@ footer {
     background-attachment: scroll;
   }
 }
+
